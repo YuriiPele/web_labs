@@ -1,0 +1,25 @@
+body {
+	font: Times Georgia;
+	background-color: blue;
+	color: black;
+	font-size: 22px;
+}
+
+img {
+	border: 7px;
+	float: left;
+	margin: 10px 10px 10px 10px;
+}
+
+table,
+td {
+	border: 3px solid orange;
+	width: 50%;
+}
+
+h1,
+p,
+li,
+a {
+	color: orange;
+}
