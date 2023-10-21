@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Лабораторна №2</title>
+</head>
+
+<body>
+	<form>
+		<h1>Заповнити форму для складання іспитів</h1>
+		<label for="last_name">Прізвище:</label>
+		<input type="text" id="last_name" name="last_name" required><br>
+		<br><br>
+		<label>З цього списку вибери район, де ти проживаєш:</label>
+		<select name="district">
+			<option value="district1">Левандіка</option>
+			<option value="district2">Сихів</option>
+			<option value="district3">Центр</option>
+		</select><br>
+
+		<p>Зазнач мову, якою ти складатимеш іспити: </p>
+		<input type="radio" id="english" name="language" value="english">
+		<label for="english">Англійська</label><br>
+		<input type="radio" id="ukrainian" name="language" value="ukrainian">
+		<label for="ukrainian">Українська</label><br>
+		<input type="radio" id="spanish" name="language" value="spanish">
+		<label for="spanish">Іспанська</label><br>
+		<br>
+		<p>Виберіть іспит:</p>
+		<input type="checkbox" id="english_exam" name="exams" value="english">
+		<label for="english_exam">Англійська</label><br>
+		<input type="checkbox" id="math_exam" name="exams" value="math">
+		<label for="math_exam">Математика</label><br>
+		<input type="checkbox" id="physics_exam" name="exams" value="physics">
+		<label for="physics_exam">Фізика</label><br>
+		<br><br>
+		<input type="submit" value="Відправити форму">
+		<input type="reset" value="Оновити форму">
+	</form>
+</body>
+
+</html>
